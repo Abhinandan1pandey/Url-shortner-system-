@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LPU UMS Login</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #fcefe9;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    /* Left Side — only background image */
+    .left {
+      width: 55%;
+      background: url("https://files.lpu.in//umsweb//Events//umseventAssets//27273_2025_10_17_10_8.jpg") no-repeat center center/cover;
+    }
+
+    /* Right Side */
+    .right {
+      width: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #faefef;
+    }
+
+    .login-box {
+      background: #fff;
+      padding: 40px 50px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 400px;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .lpu-logo {
+      height: 60px;
+    }
+
+    .login-box h2 {
+      color: #333;
+      text-transform: uppercase;
+    }
+
+    .login-box h2 span {
+      font-size: 0.8rem;
+      text-transform: none;
+      color: gray;
+    }
+
+    .login-box select,
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .captcha {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .captcha input {
+      width: 60%;
+    }
+
+    .captcha-box {
+      background: #d9e1f2;
+      color: #1b1b3a;
+      font-weight: 700;
+      padding: 12px 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      width: 100%;
+      background: #f57c00;
+      color: white;
+      border: none;
+      padding: 14px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #e66c00;
+    }
+
+    .forgot {
+      color: #444;
+      margin-top: 10px;
+      font-size: 0.9rem;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Left Side -->
+    <div class="left"></div>
+
+    <!-- Right Side -->
+    <div class="right">
+      <div class="login-box">
+        <div class="logo-row">
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Lovely_Professional_University_logo.png" class="lpu-logo" alt="LPU Logo">
+          <h2>UMS<br><span>University Management System</span></h2>
+        </div>
+
+        <h3>Log in</h3>
+        <select>
+          <option>HeadOffice</option>
+          <option>Faculty</option>
+          <option>Student</option>
+        </select>
+        <input type="text" placeholder="User ID" />
+        <input type="password" placeholder="Password" />
+        <div class="captcha">
+          <input type="text" placeholder="Enter Captcha" />
+          <div class="captcha-box">1YHBWM</div>
+        </div>
+        <button>Login</button>
+        <p class="forgot">Forgot your password?</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

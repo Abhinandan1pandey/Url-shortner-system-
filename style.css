@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fcefe9;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Left Side */
+.left {
+  width: 55%;
+  background: linear-gradient(145deg, #fff7f3, #ffe8dc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ranking-box {
+  text-align: center;
+  padding: 30px;
+  max-width: 600px;
+}
+
+.the-logo {
+  height: 70px;
+}
+
+.ranking-box h1 {
+  font-size: 3rem;
+  color: #222;
+  margin: 20px 0;
+}
+
+.highlight {
+  font-size: 6rem;
+  color: #dca400;
+  font-weight: 700;
+}
+
+.subtext {
+  background: #9b1c7a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.worldwide {
+  font-weight: 600;
+  margin: 20px 0 5px;
+}
+
+.below {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Right Side */
+.right {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #faefef;
+}
+
+.login-box {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 400px;
+}
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.lpu-logo {
+  height: 60px;
+}
+
+.login-box h2 {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.login-box h2 span {
+  font-size: 0.8rem;
+  text-transform: none;
+  color: gray;
+}
+
+.login-box select,
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.captcha {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.captcha input {
+  width: 60%;
+}
+
+.captcha-box {
+  background: #d9e1f2;
+  color: #1b1b3a;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  background: #f57c00;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e66c00;
+}
+
+.forgot {
+  color: #444;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
